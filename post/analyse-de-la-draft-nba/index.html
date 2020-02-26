@@ -5,7 +5,7 @@
 
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Lionel Ngoubou</title>
+        <title>Analyse de la draft NBA</title>
         
         <style>
 
@@ -68,9 +68,6 @@
 <script>$(document).on('click', function() { $('.collapse').collapse('hide'); })</script>
  <meta name="generator" content="Hugo 0.64.1" />
         
-            <link href="/index.xml" rel="alternate" type="application/rss&#43;xml" title="Lionel Ngoubou" />
-            <link href="/index.xml" rel="feed" type="application/rss&#43;xml" title="Lionel Ngoubou" />
-        
 
         
 
@@ -88,7 +85,7 @@
         <nav class="navbar navbar-default navbar-fixed-top">
             <div class="container">
                 <div class="navbar-header">
-                    <a class="navbar-brand visible-xs" href="#">Lionel Ngoubou</a>
+                    <a class="navbar-brand visible-xs" href="#">Analyse de la draft NBA</a>
                     <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse">
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
@@ -128,12 +125,55 @@
 
 
 <main>
-    <div class="intro">
+
+    <div>
+        <h2>Analyse de la draft NBA</h2>
+        <h5>February 26, 2020</h5>
         
-        <h1>Lionel Ngoubou</h1>
-        <h2>Aspirant Data Scientist</h2>
-        
+
     </div>
+
+    <div align="start" class="content">
+
+
+<p>La NBA a connu une évolution notable il y a de cela quelques années avec l’introduction des statistiques dites avancées. Cela a considérabkement modifié l’approche du jeu et a également eu une incidence sur l’évaluation des joueurs. L’accent a été particulièrement mis sur l’efficacité. Profusion du tir à 3 points avec le “Morey Ball”, démocratisation du “Small Ball” et bien d’autres.</p>
+<p>Le but de cette analyse est donc de voir comment cette (r)évolution se traduit. Nous avons donc axé notre analyse sur deux axes : la draft et le temps de jeu. Notre hypothèse étant que si le jeu penche de plus en plus vers l’éxtérieur, cela devrait se traduire par les joueurs sélectionnés ainsi que le temps que ces derniers passent sur le parquet. Nous avons donc décidé d’analyser les drafts des dix dernières années (2009 à 2019 inclus) afin de voir si ces tendances se traduisaient dans ces données.</p>
+<p>Dans un premier temps nous nous intéressons aux choix faits à la draft. Pour cela, nous avons classé les joueurs dans quatre catégories qui sont les suivantes : Big : pour les pivots et ailiers forts. Exemple : Al Horford ou LaMarcus Aldridge Forward : pour les ailiers et/ou ailiers forts. Exemple : Pascal Siakam, Kevin Durant, Brandon GOAT Ingram. Guard : pour les arrières et/ou meneurs. Exemple : Steph Curry, Trae Young, Lonzo Ball Swing : pour les arrières pouvant évoluer à l’aile. Exemple : RJ Barrett, DeMar Derozan, Andre Iguodala.</p>
+<p>Une fois ces catégories établies, nous avons comptabilisé les différents choix et les avons répartis selon les catégories correspondantes. Nous avons ensuite visualisé cette répartition avec un diagramme à barres (barplot).</p>
+<p>Par la suite, nous nous sommes intéressés au temps de jeu de ces joueurs draftés entre 2009 et 2019 afin de voir ceux qui passent le plus de temps sur le terrain. Ce qui pourrait se traduire par un rôle important.</p>
+<p>Notre analyse montre que les Guards sont non seulement ceux qui ont le plus de “représentents” à la draft sur ces dix dernières années, mais qu’ils sont également ceux avec le temps de jeu le plus élevé. Ils sont suivis par les Forwards, les Bigs et enfin les Swings.</p>
+<p>Cette analyse pourrait éventuellement en amener une autre qui établirait une comparaison entre la saison régulière et les playoffs.</p>
+</div>
+
+    
+    
+    
+
+    
+    
+        <h4 class="page-header">Comments</h4>
+        <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "username" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    
+
 </main>
 
         <footer>
