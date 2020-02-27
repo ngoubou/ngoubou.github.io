@@ -53,7 +53,7 @@ img {
 /* Colored links */
 
 a:link, a:visited {
-    color: var(--accent);
+    color: #337ab7;
 }
 
 a.icon:hover {
@@ -61,7 +61,7 @@ a.icon:hover {
 }
 
 a:hover {
-    color: var(--accent) !important;
+    color: #337ab7 !important;
 }
 
 /* Copyright message */
@@ -87,7 +87,7 @@ a:hover {
 }
 
 .item-tag {
-    background-color: var(--accent);
+    background-color: #337ab7;
 }
 
 /* Navigation icons */
@@ -100,9 +100,9 @@ a:hover {
 /* Colored borders at top/bottom of page */
 
 .navbar.navbar-default {
-    border-top: var(--border-width) solid #337ab7;
+    border-top: var(--border-width) solid #337ab7 ;
 }
 
 footer {
-    border-bottom: var(--border-width) solid #337ab7;
+    border-bottom: var(--border-width) solid #337ab7 ;
 }
